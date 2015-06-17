@@ -65,7 +65,7 @@ header{
 	width: 100%;
 	padding: 0 12px 0 12px;
 	color:rgb(73, 11, 11);
-	font-size:1.1em;
+	font-size:0.9em;
 	height: 30px;
 }
 #menu li:hover{
@@ -105,7 +105,10 @@ article{
 	padding:2%;
 	margin: auto;
 	width:800px;
+	height:100%;
 	background-color:white;
+	font-family: 'Roboto', sans-serif;
+	display: table;
 }
 article h1{
 	padding:0;
@@ -113,7 +116,116 @@ article h1{
 	font-size:2em;
 	
 }
-
+#text{
+	  float: left;
+}
+#img{
+	border: 2px solid red;
+	float:left;
+	margin-left: 70px;
+}
 section{
 	width:100%;
 }
+
+
+
+/*SHEMA*/
+#schema ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-left:10px;
+}
+
+.day{
+	color:black;
+	margin-bottom:2px;	
+}
+
+.dayName{
+	margin:0;
+	padding:0;
+	font-size: 1.0em;
+}
+
+.date{
+	color:red;
+	margin-right: 4px;
+}
+
+
+/*BRA ATT VETA*/
+.title{
+	position: relative;
+	top: 15px;
+	color: red;
+	font-size:20px;
+}
+
+
+#wrapBra{
+	  margin: 0 80px 0 80px;
+}
+table, tr, td{
+	border:1px solid rgb(239, 239, 239);
+}
+#programf td{
+	width: 50px;
+	padding:10px;
+}
+#ordlista td{
+	text-align:center;
+	padding:10px;
+}
+.lat{
+	padding:0;
+	margin:0;
+}
+.latsista{
+	margin: 0 0 26px;
+  	padding: 0;
+}
+
+
+
+
+/*STABPROFIL*/
+.stabProfile img{
+	/*orginal h:180px w:135px*/
+	height:200px;
+	width:135px;
+}
+
+.stabProfile{
+	float:left;
+}
+
+.stabInfo{
+	float:left;
+	width: 172px;
+	font-size: 12px;
+	padding-left: 8px;
+}
+.stabInfo ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.stabInfo span{
+	color:red;
+	margin-right:4px;
+}
+
+
+.profile{
+	float:left;
+	width: 50%;
+}
+.profile h3{
+	position:relative;	
+	top:18px;
+}
+
+
