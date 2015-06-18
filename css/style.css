@@ -16,12 +16,12 @@ header{
 }
 #logo{
 	float:left;
-	background-image: url('../pic/spiik_logo_black.png');
+	/*ackground-image: url('../pic/spiik_logo_black.png');*/
 	background-repeat: no-repeat;
-	height:210px;
-	width:221px;
+	height:211px;
+	width:200px;
 	position:relative;
-	left:8%;
+	/*left:8%;*/ /*faktiskt snyggare utan folk med stora skärmar får skylla sig själv...*/
 }
 
 #title h1{
@@ -62,11 +62,12 @@ header{
 }
 #menu a{
 	text-decoration:none;
-	width: 100%;
+	
 	padding: 0 12px 0 12px;
 	color:rgb(73, 11, 11);
 	font-size:0.9em;
-	height: 30px;
+	
+	display: block;
 }
 #menu li:hover{
 	background-color:white;
@@ -79,6 +80,7 @@ header{
 }
 #menu{
 	margin:auto;
+	text-transform:uppercase;
 	background-color:#E50B07;
 	width:100%;
 	display: -webkit-box;
@@ -89,6 +91,21 @@ header{
 	padding:0;
 	margin:auto;
 }
+
+.fbevent{
+	background-color:#3B5998;
+	color:white !important;
+}
+
+.fbevent a{
+	color:white !important;
+}
+
+.fbevent:hover{
+	background-color:#3672F2 !important;
+}
+
+
 
 #selected{
 	background-color:white;
@@ -123,6 +140,9 @@ article h1{
 	border: 2px solid red;
 	float:left;
 	margin-left: 70px;
+	
+	width:80%;
+	height:auto;
 }
 section{
 	width:100%;
@@ -156,11 +176,8 @@ section{
 
 
 /*BRA ATT VETA*/
-.title{
-	position: relative;
-	top: 15px;
+.titles{
 	color: red;
-	font-size:20px;
 }
 
 
@@ -228,4 +245,7 @@ table, tr, td{
 	top:18px;
 }
 
-
+/* kontakt.html*/
+.fixedHeight{
+	
+}
