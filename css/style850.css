@@ -24,4 +24,17 @@
 
 #menu{
 	display: block;
+	border-top:1px solid #C50101;
+}
+
+article{
+	padding:initial;
+	padding-top:2%;
+	width:initial;
+	height:initial;
+}
+
+.profile{
+	float:left;
+	width: initial;
 }
