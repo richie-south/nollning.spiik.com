@@ -23,7 +23,7 @@ header{
 
 #menu{
 	display: block;
-	border-top:1px solid #C50101;
+	border-top:1px solid white;
 }
 
 
@@ -32,7 +32,7 @@ header{
 	line-height:100px;
 	float:none;
 	border:none;
-	border-bottom:1px solid #C50101;
+	border-bottom:1px solid white;
 	
 	-webkit-border-top-left-radius: 0px;
 	-webkit-border-top-right-radius: 0px;
